@@ -2,9 +2,13 @@
 
 
 ## General info
-
+This is my first Decentralized musicbox,  the music with albums are stored in IPFS (Decentralise storage system ) and minted with polygon mumbai testnet. [Still figuring out how to add bulk airdrop onclick for all authenticated users]
 
 ## Technologies
+React.JS
+Javascript
+Moralis SDK 
+CSS 
 
 
 ##If you have this error:
@@ -15,7 +19,8 @@ You can solve it with
 npm install react-scripts --save
 ```
 
-##Preview - Below GIF images might take longer to load... You won't regret waiting ;)
+
+## Preview of the dAPP - Below GIF images might take longer to load... You won't regret waiting ;)
 
 1) Wallet connect - Using Moralis Authentication 
 
