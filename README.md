@@ -19,14 +19,12 @@ npm install react-scripts --save
 
 1) Wallet connect - Using Moralis Authentication 
 
-
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/101921758/161101626-1eb3e183-7ca3-4526-ab86-8ee720c91aa1.gif)
-
-
 
 
 2) Metamask authentication (Moralis provider ) 
 
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/101921758/161103168-0e52e689-375d-45c9-a7bd-3c206850f742.gif)
 
 
 3) Home page of the decentralized music box
