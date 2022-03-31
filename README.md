@@ -15,7 +15,7 @@ You can solve it with
 npm install react-scripts --save
 ```
 
-##Preview
+##Preview - Below GIF images might take longer to load... You won't regret waiting ;)
 
 1) Wallet connect - Using Moralis Authentication 
 
