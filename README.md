@@ -22,7 +22,7 @@ npm install react-scripts --save
 
 ## Preview of the dAPP - Below GIF images might take longer to load... You won't regret waiting ;)
 
-1) Wallet connect - Using Moralis Authentication 
+1) Wallet connect - Using Moralis Authentication --USER CLICK CONNECT WALLET
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/101921758/161101626-1eb3e183-7ca3-4526-ab86-8ee720c91aa1.gif)
 
