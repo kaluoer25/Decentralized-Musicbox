@@ -1,6 +1,6 @@
 import React from "react";
 import { useAlbum } from "../hooks/useAlbum";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 import "./Album.css";
 import Opensea from "../images/opensea.png";
 import { ClockCircleOutlined } from "@ant-design/icons";

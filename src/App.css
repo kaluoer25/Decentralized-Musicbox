@@ -1,124 +1,224 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
-* {
+
+.landing {
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-content: center;
+  text-align: center;
+  background-image: url("space.gif");
+  background-size:  cover;                      /* <------ */
+    background-repeat:   no-repeat;
+  background-position: center center;
+
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-family: fantasy
+}
+
+.firstbutton {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  align-items: center;
 }
 
-body {
-  background: background-color #2A2E37;
+.secondbutton { 
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
-.title {
-  color: rgb(47, 184, 189)
-  center;
-
+.secondbutton:active,
+.secondbutton:hover {
+  outline: 0;
 }
 
-.search {
-  width: 100px;
-  height: 100px;
-  margin: 40px auto 0;
-  background-color:  #242628;
-  position: relative;
-  overflow: hidden;
-
+.secondbutton span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
 }
-.search-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  border: 3px solid
 
+.secondbutton:hover span {
+  background: none;
 }
- 
+
+@media (min-width: 768px) {
+  .secondbutton{
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+.font {
+  text-align: center;
+}
+
+
 .ant-layout {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .ant-layout-sider {
-    background-image: linear-gradient(#1e2422, #000000);
-    background-attachment:fixed;
-    width: 800px;
-    padding: 30px;
+  background-color: #000000;
+  width: 800px;
+  padding: 30px;
 }
 
 .ant-layout-content {
-    background-image: url("fire.gif");
-    background-attachment:fixed;
+  background-image: url("spin.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ant-layout-footer {
-    background-color: #292929;
-    padding-bottom: 4px;
-    padding-top: 15px;
+  background-color: #292929;
+  padding-bottom: 4px;
+  padding-top: 15px;
 }
 
 .ant-tabs-top > .ant-tabs-nav::before {
-    border-bottom: 0px;
+  border-bottom: 0px;
 }
 
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: rgb(47, 184, 189);
-    text-shadow: 0 0 0.25px currentcolor;
+  color: white;
+  text-shadow: 0 0 0.25px currentcolor;
 }
 
 .ant-tabs-tab-btn:focus {
-    color: white;
+  color: white;
 }
 
 .ant-tabs-tab {
-    color: rgb(125, 125, 125);
-    font-size: 18px;
-    letter-spacing: 2px;
+  color: rgb(125, 125, 125);
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .ant-tabs-tab:hover {
-    color: white;
+  color: white;
 }
 
 .ant-tabs-ink-bar {
-    background: #38e5f1;
-    width: 10px;
+  background: #31f6fd;
+  width: 10px;
 }
 
+.ant-slider-track {
+  background-color: #31f6fd;
+}
 
-  
-  .recentPlayed {
-    border-top: 2px solid rgb(77, 239, 245);
-    border-bottom: 2px solid rgb(125, 125, 125);
-    padding: 15px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: calc(100vh - 400px);
-  }
-  
-  .recentTitle {
-    color: rgb(125, 125, 125);
-    font-size: 15px;
-    font-weight: 400;
-  }
-  
-  .install {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .contentWindow {
-    padding: 50px 0px;
-  }
+.ant-slider:hover .ant-slider-track {
+  background-color: #31f6fd;
+}
 
-  .footer {
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    background-color: #292929;
-    color: rgb(205, 203, 203) !important; 
-  }
+.ant-slider-handle {
+  border: 0px;
+}
 
+.ant-slider-rail {
+  background-color: #c3e8f1;
+}
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
+  width: 200px;
+  height: 250px;
+}
 
-    
+.searchBar {
+  border-top: 2px solid rgb(125, 125, 125);
+  border-bottom: 2px solid rgb(125, 125, 125);
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sideBar {
+  color: rgb(39, 233, 247);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.recentPlayed {
+  border-top: 2px solid rgb(125, 125, 125);
+  border-bottom: 2px solid rgb(125, 125, 125);
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 400px);
+}
+
+.recentTitle {
+  color: rgb(125, 125, 125);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.install {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentWindow {
+  padding: 50px 0px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #010303;
+  color: rgb(205, 203, 203) !important;
+}
