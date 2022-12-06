@@ -2,7 +2,7 @@
 
 
 ## General info
-This is my first Decentralized musicbox,  the music with albums are stored in IPFS (Decentralise storage system ) and minted with polygon mumbai testnet. [Still figuring out how to add bulk airdrop onclick for all authenticated users]
+This is my first Decentralized musicbox,  the music with albums are stored in IPFS (Decentralise storage system ) and minted with polygon mumbai testnet. 
 
 ## Technologies
 React.JS
