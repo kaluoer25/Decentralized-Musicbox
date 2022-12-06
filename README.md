@@ -20,7 +20,7 @@ npm install react-scripts --save
 ```
 
 
-## Preview of the dAPP - Below GIF images might take longer to load... You won't regret waiting ;)
+## Preview of the dAPP 
 
 1) Wallet connect - Using Moralis Authentication --USER CLICK CONNECT WALLET
 
